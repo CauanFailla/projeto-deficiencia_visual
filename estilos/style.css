@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor1:#F7DDDB;
+    --cor2:#F59791;
+    --cor3:#C27872;
+    --cor4:#754845;
+    --cor5:#756968;
+    --principal: 'Koulen', cursive;
+    --padrao: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--padrao);
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+    min-height: 150px;
+    color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.329);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: var(--principal);
+    font-size: 3em;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.384);
+}
+
+header p {
+    text-align: center;
+    font-size: 1.1em;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.384);
+}
+
+nav {
+    margin-top: 73px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+    color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.329);
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1 {
+    font-size: 2em;
+    padding: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: var(--cor5);
+    text-decoration: underline;
+}
+main p {
+    padding: 20px;
+    text-indent: 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 1em;
+}
+
+main h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding: 1px;
+    color: var(--cor4);
+}
+
+main img {
+    width: 100%;
+}
+
+.cego {
+    list-style-type: '\1F9AF\00A0';
+}
+
+.coluna {
+    list-style-position: inside;
+    list-style-type: '\1F570\00A0';
+}
+
+.video {
+    background-image: linear-gradient(to bottom, var(--cor4),  var(--cor3));
+    padding-bottom: 59%;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+main strong {
+    color: var(--cor4);
+}
